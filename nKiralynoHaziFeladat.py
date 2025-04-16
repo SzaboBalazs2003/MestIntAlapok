@@ -30,7 +30,7 @@ def backtracking_c(graph, result, nth_queen, number_of_queens, h=None):
 # Az "n" adja meg hogy mennyi királynőt kell letenni egy mekkora táblán.
 # Itt hozom létre a gráfot leíró mátrixot. A help tömb arra van hogy szimulálja a gráf megjelensét.
 # A gráfban a node-ok azokkal a node-okkal vannak összekötve, ahova a királynő ütni tud az adott pozícióból.
-n=6
+n=4
 size=n*n
 help = np.arange(0,n*n).reshape(n,n)
 graph=[]
